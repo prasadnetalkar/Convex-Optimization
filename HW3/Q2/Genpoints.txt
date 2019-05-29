@@ -1,0 +1,8 @@
+clc
+clear
+close all
+image=imread('curvedriver_wikipedia.jpg');
+figure;
+imshow(image);
+p=ginput;
+save('points_new2.mat','p');
